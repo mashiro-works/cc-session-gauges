@@ -2,3 +2,4 @@
 plugins/*/.claude-plugin/types/
 node_modules/
 *.log
+MEMORY.md
