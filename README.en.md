@@ -1,4 +1,6 @@
-# claude-mods
+# cc-session-gauges
+
+A personal marketplace of Claude Code Mods. Not an official Anthropic project.
 
 A plugin marketplace for Claude Code Mods. Japanese: [README.md](README.md)
 
@@ -13,8 +15,8 @@ A plugin marketplace for Claude Code Mods. Japanese: [README.md](README.md)
 ## Install
 
 ```
-/plugin marketplace add mashiro-works/claude-mods
-/plugin install model-watch@claude-mods
+/plugin marketplace add mashiro-works/cc-session-gauges
+/plugin install model-watch@cc-session-gauges
 ```
 
 To try without installing: `git clone` this repository and run `claude --plugin-dir ./plugins/model-watch`.

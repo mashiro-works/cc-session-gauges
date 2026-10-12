@@ -1,5 +1,5 @@
 {
-  "name": "claude-mods",
+  "name": "cc-session-gauges",
   "owner": { "name": "Mashiro" },
   "metadata": {
     "description": "Claude Code Mods: model-watch, usage-band, delete-guard"

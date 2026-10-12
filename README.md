@@ -1,6 +1,6 @@
-# claude-mods
+# cc-session-gauges
 
-Claude Code の Mods（プラグインで動く拡張）を配布するマーケットプレイスです。3つの Mod が入っています。
+Claude Code の Mods（プラグインで動く拡張）を配布する個人製のマーケットプレイスです。Anthropic 公式のものではありません。3つの Mod が入っています。
 
 English: [README.en.md](README.en.md)
 
@@ -19,19 +19,19 @@ English: [README.en.md](README.en.md)
 Claude Code の中で次のように入力します。
 
 ```
-/plugin marketplace add mashiro-works/claude-mods
-/plugin install model-watch@claude-mods
+/plugin marketplace add mashiro-works/cc-session-gauges
+/plugin install model-watch@cc-session-gauges
 ```
 
-usage-band と delete-guard も同じ形で入れられます（`/plugin install usage-band@claude-mods`、`/plugin install delete-guard@claude-mods`）。
+usage-band と delete-guard も同じ形で入れられます（`/plugin install usage-band@cc-session-gauges`、`/plugin install delete-guard@cc-session-gauges`）。
 
 ### 入れずに試す
 
 リポジトリを手元に置いて、起動時にフォルダを指定します。そのセッションだけで有効になります。
 
 ```
-git clone https://github.com/mashiro-works/claude-mods.git
-cd claude-mods
+git clone https://github.com/mashiro-works/cc-session-gauges.git
+cd cc-session-gauges
 claude --plugin-dir ./plugins/model-watch
 ```
 
