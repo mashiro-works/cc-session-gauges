@@ -1,0 +1,8 @@
+{
+  "name": "usage-band",
+  "version": "0.1.0",
+  "description": "5時間枠・週次枠・コンテキスト・費用を入力欄の上にバーで表示する",
+  "author": { "name": "Mashiro" },
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}

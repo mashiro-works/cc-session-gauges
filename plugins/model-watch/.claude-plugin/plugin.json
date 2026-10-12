@@ -1,0 +1,8 @@
+{
+  "name": "model-watch",
+  "version": "0.1.0",
+  "description": "どのモデル（Opus / Sonnet / Haiku）がメイン・サブエージェント・裏で答えたかを記録し、入力欄の上に帯で表示する",
+  "author": { "name": "Mashiro" },
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}

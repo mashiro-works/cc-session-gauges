@@ -1,0 +1,30 @@
+{
+  "name": "claude-mods",
+  "owner": { "name": "Mashiro" },
+  "metadata": {
+    "description": "Claude Code Mods: model-watch, usage-band, delete-guard"
+  },
+  "plugins": [
+    {
+      "name": "model-watch",
+      "source": "./plugins/model-watch",
+      "description": "Records which model answered each request and shows it in a band above the prompt",
+      "version": "0.1.0",
+      "author": { "name": "Mashiro" }
+    },
+    {
+      "name": "usage-band",
+      "source": "./plugins/usage-band",
+      "description": "Shows 5-hour and weekly usage limits above the prompt at all times",
+      "version": "0.1.0",
+      "author": { "name": "Mashiro" }
+    },
+    {
+      "name": "delete-guard",
+      "source": "./plugins/delete-guard",
+      "description": "Asks for a reason and impact before recursive delete commands and shows a confirmation dialog",
+      "version": "0.1.0",
+      "author": { "name": "Mashiro" }
+    }
+  ]
+}

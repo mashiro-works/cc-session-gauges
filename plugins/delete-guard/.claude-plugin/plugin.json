@@ -1,0 +1,7 @@
+{
+  "name": "delete-guard",
+  "version": "0.1.0",
+  "description": "削除コマンドに理由と影響の説明を求め、人が確認してから実行する",
+  "author": { "name": "Mashiro" },
+  "license": "MIT"
+}
